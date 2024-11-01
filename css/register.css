@@ -1,0 +1,69 @@
+@import url(./index.css);
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--white-gray);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 48vw;
+    height: 96vh;
+}
+
+.box-left {
+    background-color: var(--blue);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.box-right {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.box-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.box-logo>img {
+    width: 60px;
+}
+
+.box-logo>span {
+    font-size: 25px;
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.box-left>span {
+    font-size: 40px;
+    margin-left: 100px;
+    color: var(--white);
+    font-weight: 700;
+}
+
+.box-left>img {
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 600px;
+}
+
+.box-right {
+    background-color: var(--white);
+    box-shadow: 0 0 10px var(--blue);
+}

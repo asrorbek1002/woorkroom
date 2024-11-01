@@ -1,0 +1,22 @@
+@font-face {
+    font-family: NunitoRegular;
+    src: url(../fonts/NunitoSans_7pt-Regular.ttf);
+}
+@font-face {
+    font-family: NunitoMedium;
+    src: url(../fonts/NunitoSans_7pt-Medium.ttf);
+}
+*,
+body {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: NunitoRegular;
+}
+:root {
+    --blue: #3F8CFF;
+    --gray: #7D8592;
+    --white-gray: #F4F9FD;
+    --black: #000000;
+    --white: #ffffff;
+}
